@@ -1,6 +1,25 @@
 # multiweb
 Multiple projects for debugging sample.
 
+## Opening VS Code
+
+Launch VS Code with the project root as the current working directory. One easy way to do this is to type the word "code" followed by a dot "." at a Command Prompt, Powershell window or Windows Terminal.
+
+
+Powershell/Terminal Command:
+
+```
+code .
+```
+![Powershell Command](images/powershell-code-command.PNG)
+
+If you already have VS Code open, use the built-in Terminal (Ctrl+`) to change the current directory to the project root.
+
+In either case, you should end up with VS Code open with the Terminal open in the correction location (project root).
+
+![VS Code with Terminal panel](images/vscode-terminal.PNG)
+
+
 ## Launch Configuration 
 
 This project contains [launch.json](.vscode/launch.json) configuration for a .NET Core console project and a Web API projet.
