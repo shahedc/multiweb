@@ -79,3 +79,24 @@ e.g. Output in Web API project:
 
 e.g. Output in Console project:
 ![Output in Console project](images/vscode-debug-console-output.PNG)
+
+
+## Optional: Run Multiple Projects
+
+As a bonus, I have added a Compounds section to the launch.json file.
+```
+    "compounds": [
+        {
+            "name": "Both Console & Web API",
+            "configurations": [
+                ".NET Core Launch (console)",
+                ".NET Core Launch (web)"
+            ]
+        }
+```
+
+This will allow you to launch both the Console app (in the Terminal) and the Web API app (in a browser) in rapid succession, with 1 click.
+
+
+e.g. Debugging multiple projects:
+![Debugging multiple projects](images/vscode-debug-both.PNG)
