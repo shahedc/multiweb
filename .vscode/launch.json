@@ -43,5 +43,14 @@
             "request": "attach",
             "processId": "${command:pickProcess}"
         }
+    ],
+    "compounds": [
+        {
+            "name": "Both Console & Web API",
+            "configurations": [
+                ".NET Core Launch (console)",
+                ".NET Core Launch (web)"
+            ]
+        }
     ]
 }
